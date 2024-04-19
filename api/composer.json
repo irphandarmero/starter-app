@@ -1,0 +1,11 @@
+{
+    "name": "yasmin/starter-app",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "yasmin/framework": "^1.1"
+    }
+}

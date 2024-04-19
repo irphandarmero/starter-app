@@ -1,0 +1,13 @@
+name: starter-app
+services:
+  dev:
+    container_name: yasmin_container
+    image: rsyasmin/dev:latest
+    volumes:
+      - ./:/workspace
+      - ./vhost.conf:/etc/apache2/conf.d/vhost.conf
+    environment:
+      - NG_INSTALL=YES
+      - NG_VERSION=17
+    ports:
+      - 9001:80

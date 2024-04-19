@@ -1,0 +1,16 @@
+openapi: '3.0.2'
+info:
+  title: Starter Project
+  version: '1.0'
+
+servers:
+  - url: http://drop_site_link_here/
+    description: Development
+
+tags:
+  - name: Index
+    description: Index Awal API
+
+paths:
+  /index:
+    $ref: './paths/index.yaml'
