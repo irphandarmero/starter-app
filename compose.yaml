@@ -1,7 +1,7 @@
 name: starter-app
 services:
   dev:
-    container_name: yasmin_container
+    container_name: starter-app_container
     image: rsyasmin/dev:latest
     volumes:
       - ./:/workspace
